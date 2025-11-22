@@ -8,7 +8,6 @@ Este es mi portafolio web profesional donde presento mi trayectoria, habilidades
 
 ## 🚀 Demo
 
-Visita mi portafolio en vivo: https://github.com/G1I2S/curriculum
 
 ## 🛠️ Tecnologías Utilizadas
 
