@@ -62,7 +62,7 @@ git clone https://github.com/G1I2S/Portfolio.git
 
 2. Navega al directorio:
 ```bash
-cd Portfolio
+https://g1i2s.github.io/Portfolio/
 ```
 
 3. Abre `index.html` en tu navegador favorito o usa un servidor local:
