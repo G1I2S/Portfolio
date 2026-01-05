@@ -1,0 +1,40 @@
+# Windows System Files
+NTUSER.DAT*
+ntuser.dat*
+ntuser.ini
+AppData/
+.local/
+.dbus-keyrings/
+.ssh/
+.vscode/
+.bash_history
+.viminfo
+.gitconfig
+.claude.json
+.claude.json.backup
+.claude/
+
+# Windows User Folders
+OneDrive/
+Favorites/
+Downloads/
+Pictures/
+Videos/
+3D Objects/
+Saved Games/
+Searches/
+IntelGraphicsProfiles/
+Menú Inicio/
+Mis documentos/
+Plantillas/
+Reciente/
+SendTo/
+Configuración local/
+Cookies/
+Datos de programa/
+Entorno de red/
+Impresoras/
+
+# Other
+nul
+CrossDevice/
