@@ -22,9 +22,6 @@
             <a class="nav-link" href="#inicio">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experiencia">Experiencia</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#habilidades">Habilidades</a>
           </li>
           <li class="nav-item">
@@ -46,26 +43,6 @@
     <p class="lead">Diseñadora web en formación, apasionada por crear experiencias digitales funcionales y atractivas.</p>
   </header>
 
-
-  <section id="experiencia" class="container my-5">
-    <h2 class="mb-4">Experiencia Laboral</h2>
-    <ul class="list-group">
-      <li class="list-group-item">
-        <strong>Diseñadora Web Freelance</strong> (Presente)<br />
-        Diseño de sitios web para emprendedores.
-      </li>
-      <li class="list-group-item">
-        <strong>Asistente de diseño</strong> <br />
-        Apoyo en proyectos visuales y maquetación web.
-      </li>
-       <li class="list-group-item">
-        <strong>Diseñadora UX/UI</strong> <br />
-       Diseñadora ux/ui
-      </li>
-    </ul>
-  </section>
-
-
   <section id="habilidades" class="container my-5">
     <h2 class="mb-4">Habilidades Técnicas</h2>
     <div class="row">
@@ -75,59 +52,141 @@
           <li>Responsive Design, Flexbox</li>
           <li>Git, GitHub</li>
           <li>Experiencia de usuario</li>
+          <li>Transiciones - Animaciones CSS</li>
         </ul>
       </div>
     </div>
   </section>
-
-
   <section id="portafolio" class="container my-5">
-    <h2 class="mb-4">Portafolio</h2>
-    <div class="row row-cols-1 row-cols-md-3 g-3">
-      <div class="col">
-        <div class="card h-100">
-          <img src="Assets/img/CURRICULUM.jpeg" class="card-img-top" alt="Proyecto 1" style="height: 200px; object-fit: cover;" />
-          <div class="card-body">
-            <h6 class="card-title">Curriculum</h6>
-            <p class="card-text small">Curriculum profecional, creado con lenguage HTML y CSS.</p>
-            <a href="https://g1i2s.github.io/curriculum/" class="btn btn-primary btn-sm" target="_blank">Ver Proyecto</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="Assets/img/IGUANA PEGE.jpeg" class="card-img-top" alt="Proyecto 2" style="height: 200px; object-fit: cover;" />
-          <div class="card-body">
-            <h6 class="card-title">Iguana Page</h6>
-            <p class="card-text small">Proyecto realizado con contenido flex.</p>
-            <a href="https://g1i2s.github.io/Aligning-Content_flex-Iguana-page/" class="btn btn-primary btn-sm" target="_blank">Ver Proyecto</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="Assets/img/CUPON.jpeg" class="card-img-top" alt="Proyecto 2" style="height: 200px; object-fit: cover;" />
-          <div class="card-body">
-            <h6 class="card-title">Cupon</h6>
-            <p class="card-text small">Ejecucion de contenido con boostrap, utilizando cards y otros elementos.</p>
-            <a href="https://g1i2s.github.io/coupon/" class="btn btn-primary btn-sm" target="_blank">Ver Proyecto</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <h2 class="mb-4 text-center">PORTAFOLIO</h2>
 
+    <div id="carouselPortafolio" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/CURRICULUM.jpeg" class="card-img-top" alt="Proyecto 1" />
+                <div class="card-body">
+                  <h5 class="card-title">Curriculum</h5>
+                  <p class="card-text">Curriculum Vitae digital interactivo desarrollado con HTML5, CSS3 y Bootstrap 5.</p>
+                  <a href="https://g1i2s.github.io/curriculum/" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/CUPON.jpeg" class="card-img-top" alt="Proyecto 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Cuppon</h5>
+                  <p class="card-text">Sitio web para promociones de cupones.</p>
+                  <a href="https://g1i2s.github.io/cupon/" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/IGUANA PEGE.jpeg" class="card-img-top" alt="Proyecto 3" />
+                <div class="card-body">
+                  <h5 class="card-title">Iguana PEGE</h5>
+                  <p class="card-text">Página web informativa sobre iguanas, creada con HTML5 y CSS3.</p>
+                  <a href="#" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/Card .jpeg" class="card-img-top" alt="Proyecto 1" />
+                <div class="card-body">
+                  <h5 class="card-title">-Electric-Cars</h5>
+                  <p class="card-text">Un sitio web responsive, desarrollado con HTML y CSS utilizando Media Queries para adaptarse a diferentes tamaños de pantalla..</p>
+                  <a href="https://g1i2s.github.io/-Electric-Cars/" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/Encomerce.jpeg" class="card-img-top" alt="Proyecto 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Encomerce</h5>
+                  <p class="card-text">Un sitio web de ecommerce moderno y responsivo construido con HTML y CSS, utilizando CSS Grid para un diseño flexible y adaptable..</p>
+                  <a href="https://g1i2s.github.io/Encomerce/" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/Sistema M.jpeg" class="card-img-top" alt="Proyecto 3" />
+                <div class="card-body">
+                  <h5 class="card-title">Sistema M</h5>
+                  <p class="card-text">Un sistema de mensajería moderno con interfaz de chat desarrollado con HTML y CSS puro</p>
+                  <a href="https://g1i2s.github.io/Sistema-de-mensajer-a-/" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/CURRICULUM.jpeg" class="card-img-top" alt="Proyecto 1" />
+                <div class="card-body">
+                  <h5 class="card-title">Curriculum</h5>
+                  <p class="card-text">Curriculum Vitae digital interactivo desarrollado con HTML5, CSS3 y Bootstrap 5.</p>
+                  <a href="https://g1i2s.github.io/curriculum/" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/CUPON.jpeg" class="card-img-top" alt="Proyecto 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Cuppon</h5>
+                  <p class="card-text">Sitio web para promociones de cupones.</p>
+                  <a href="https://g1i2s.github.io/cupon/" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="Assets/img/IGUANA PEGE.jpeg" class="card-img-top" alt="Proyecto 3" />
+                <div class="card-body">
+                  <h5 class="card-title">Iguana PEGE</h5>
+                  <p class="card-text">Página web informativa sobre iguanas, creada con HTML5 y CSS3.</p>
+                  <a href="#" class="btn btn-primary" target="_blank">Ver Proyecto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortafolio" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPortafolio" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
 
   <section id="educacion" class="container my-5">
     <h2 class="mb-4">Educación</h2>
     <ul class="list-group">
-      <li class="list-group-item"><strong>Desarrollo Web</strong> - Desafío Latam (2025)</li>
-      <li class="list-group-item"><strong>HTML y CSS</strong> - Sololearn (2024)</li>
+      <li class="list-group-item"><strong>Desarrollador Full Stack</strong> - Desafío Latam (2025)</li>
+      <li class="list-group-item"><strong>Experiencia de usuario -UX/UI</strong> -  (2024)</li>
     </ul>
   </section>
 
-
-  <footer id="contacto" class="text-white text-center py-4" style="background-image: url('Assets/img/img nav.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <footer id="contacto" class="text-white text-center" style="background-image: url('Assets/img/img nav.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 2rem 0 2rem 0; margin: 0;">
   <div class="container">
     <p class="mb-1 fs-5">¡Trabajemos juntos!</p>
     <p class="mb-3">Contáctame para colaborar en proyectos digitales.</p>

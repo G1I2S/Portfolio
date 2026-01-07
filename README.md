@@ -33,10 +33,13 @@ Portfolio/
 
 - ✅ Diseño responsive y mobile-first
 - ✅ Interfaz limpia y profesional
+- ✅ Navbar compacto y optimizado
 - ✅ Sección de experiencia laboral
 - ✅ Showcase de habilidades técnicas
-- ✅ Galería de proyectos con enlaces directos
-- ✅ Información de contacto
+- ✅ **Carrusel de proyectos**: Muestra 3 proyectos simultáneamente con navegación lateral
+- ✅ Efectos hover en tarjetas de proyectos
+- ✅ Footer de ancho completo con información de contacto
+- ✅ Transiciones y animaciones CSS suaves
 
 ## 📌 Secciones
 
@@ -49,9 +52,12 @@ Portfolio/
 
 ## 🎯 Proyectos Destacados
 
-- **[Curriculum](https://github.com/G1I2S/curriculum)**: CV profesional con HTML y CSS
-- **[Iguana Page](https://github.com/G1I2S/Iguana-page)**: Proyecto con Flexbox
-- **[Cupon](https://github.com/G1I2S/coupon)**: Implementación con Bootstrap y cards
+- **[Curriculum](https://g1i2s.github.io/curriculum/)**: Curriculum Vitae digital interactivo desarrollado con HTML5, CSS3 y Bootstrap 5
+- **[Cuppon](https://g1i2s.github.io/cupon/)**: Sitio web para promociones de cupones
+- **Iguana PEGE**: Página web informativa sobre iguanas, creada con HTML5 y CSS3
+- **[Electric Cars](https://g1i2s.github.io/-Electric-Cars/)**: Sitio web responsive con Media Queries
+- **[Encomerce](https://g1i2s.github.io/Encomerce/)**: Sitio de ecommerce moderno con CSS Grid
+- **[Sistema M](https://g1i2s.github.io/Sistema-de-mensajer-a-/)**: Sistema de mensajería con interfaz de chat en HTML y CSS puro
 
 ## 💻 Instalación Local
 
